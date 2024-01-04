@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -20,7 +20,9 @@
     "react-router-dom": "^6.8.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "three": "^0.149.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
