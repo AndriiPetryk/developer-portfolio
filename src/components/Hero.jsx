@@ -16,12 +16,13 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
+            Hi, I'm <span className='text-[#915EFF]'>Andrii</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
+          <div className={`${styles.heroSubText} mt-2 text-white-100`}>
+              <p>Senior Frontend Engineer for over 10 years and am used to contributing to quality.</p>
+              <p>I've successfully implemented micro front-end approaches using React.js/Redux.js in applications for a cargo tracking system based in the EU.</p>
+              <p>I’m passionate about pushing the boundaries of front-end development.</p>
+          </div>
         </div>
       </div>
 

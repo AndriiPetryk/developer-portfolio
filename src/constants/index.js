@@ -31,13 +31,13 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  // {
+  //   id: "projects",
+  //   title: "Projects.",
+  // },
 ];
 
 const services = [
@@ -190,9 +190,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "React admin dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The React Admin Dashboard was developed to meet the client's goal of creating a comprehensive data management platform with dynamic Charts and Tables. As a React developer, my contributions included designing and implementing the user interface, integrating interactive Charts for insightful data visualization, and creating responsive Tables for efficient data representation. Leveraging React's capabilities, I ensured a seamless user experience and efficient data handling. The project's success is evident in improved data analysis, streamlined workflows, and positive user feedback, showcasing the React Admin Dashboard as a powerful tool for data-driven decision-making.",
     tags: [
       {
         name: "react",
@@ -208,12 +208,21 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndriiPetryk/react-admin-dashboard",
   },
   {
-    name: "Job IT",
+    name: "E-shop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Internet Shop was crafted to fulfill the client's objective of creating a seamless e-commerce experience for different products.\n" +
+        "As a React developer, I played a pivotal role in designing and implementing a user-friendly interface, ensuring a smooth shopping journey from product selection to checkout.\n" +
+        "Leveraging React's state management, I optimized the application for high performance and responsiveness.\n" +
+        "The project's success is evident in increased sales, positive user reviews, and enhanced user engagement.\n" +
+        "The Internet Shop stands as a sophisticated, visually appealing platform that successfully meets the client's goals and customer expectations\n" +
+        "\n" +
+        "\n" +
+        "\n" +
+        "\n"
+    ,
     tags: [
       {
         name: "react",
@@ -229,12 +238,16 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndriiPetryk/proshop-e-market",
   },
   {
-    name: "Trip Guide",
+    name: "Modern fitness guide",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The React Fitness Application was developed to meet the client's goal of creating a dynamic and user-friendly platform for fitness enthusiasts.\n" +
+        "As a React developer, my contributions focused on crafting an intuitive user interface, ensuring seamless navigation, and integrating responsive design elements.\n" +
+        "Leveraging React's component-based architecture, I implemented different features to this application such as a search, and functionality of choosing training.\n" +
+        "The project's success is reflected in its positive user feedback, increased user engagement, and a growing community of fitness enthusiasts.\n" +
+        "The React Fitness Application stands as a testament to the effective collaboration and innovative solutions brought to life by the development team.",
     tags: [
       {
         name: "nextjs",
@@ -250,7 +263,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndriiPetryk/fitness-app",
   },
 ];
 
